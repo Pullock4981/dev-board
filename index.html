@@ -25,12 +25,12 @@
 
     <!-- header -->
 
-    <header class="lg:mr-28 mr-4 lg:ml-28 ml-4">
+    <header class="lg:mx-16 mx-4 ml-4">
 
         <!-- nav section -->
 
         <nav>
-            <div class="navbar bg-base-100 rounded-lg px-3">
+            <div class="navbar bg-[#ffffff] rounded-lg px-3">
                 <div class="flex-1 cursor-pointer">
                     <img src="assets/logo.png" alt="">
                     <p class="text-xl pl-2">Dev<span class="font-bold">Board</span></p>
@@ -51,15 +51,279 @@
 
     <!-- main section -->
 
-    <main>
+    <main class="lg:mx-16 mx-4 rounded-lg mt-8">
+
+        <!-- main div -->
+
+        <div class="flex gap-5 w-[100%]">
+            <!-- left-side with 3/4 width -->
+             <div class="w-3/4 bg-white px-4 py-4">
+
+                <!-- take 3 little div -->
+                <div class="flex justify-between items-center gap-5 w-[100%]">
+
+                    <!-- left div -->
+                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 w-[28%]">
+                        <div class="bg-[#ffff] rounded-full p-2 cursor-pointer">
+                            <img src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p>
+                                Task Assigned
+                            </p>
+                            <h2 class="font-bold">
+                                05
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!-- mid div -->
+                    <div class="w-[40%] flex justify-start items-center gap-2 py-5 px-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-lg">
+                        <div>
+                            <img class="h-12" src="assets/board.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-white">
+                                Discover Something <br> New Today!
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- right div -->
+                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 w-[28%]">
+                        <div class="bg-[#ffff] rounded-full p-2 cursor-pointer">
+                            <img src="assets/calender.png" alt="">
+                        </div>
+                        <div class="font-bold">
+                            <p>
+                                Wed ,
+                            </p>
+                            <p>
+                                Feb 28 2025
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- task container -->
+
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
+
+                    <!-- task-1 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                ShopEase
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Fix Mobile Button Issue 
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Debug using Chrome DevTools and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- task-2 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                CloudSync
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Add Dark Mode 
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- task-3 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                SwiftPay
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Optimize  Home page
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Debug using Chrome DevTools and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- task-4 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                Meta
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Add new emoji 🤲 
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Debug using Chrome DevTools and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- task-5 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                Google LLC
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Integrate OpenAI API 
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Debug using Chrome DevTools and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- task-6 -->
+                    <div class="bg-[#F4F7FF] rounded-lg p-5 mt-5 flex flex-col justify-start items-start gap-3">
+                        <div>
+                            <p class="bg-white p-2 rounded-lg">
+                                Glassdoar
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Improve Job searching  
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="bg-white text-gray-500 p-3 rounded-lg">
+                                Debug using Chrome DevTools and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center w-[100%]">
+                            <div>
+                                <p>
+                                    Deadline
+                                </p>
+                                <h2 class="font-bold">
+                                    21 March 2025
+                                </h2>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+             </div>
+
+            <!-- right-side with 1/4 width -->
+             <div class="w-1/4 bg-white">
+                <div class="flex gap-2 items-center justify-center p-3">
+                    <img src="assets/activity.png" alt="">
+                    <p class="text-lg font-semibold">Activity Log</p>
+                </div>
+                <div class="flex items-center justify-center">
+                    <button class="bg-[#3752FD] text-white px-2 py-2 rounded-lg">Clear History</button>
+                </div>
+             </div>
+        </div>
 
     </main>
 
-    <!-- footer section -->
-
-    <footer>
-
-    </footer>
     
 </body>
 </html>
