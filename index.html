@@ -33,7 +33,7 @@
             <div class="navbar bg-[#ffffff] rounded-lg px-3">
                 <div class="flex-1 cursor-pointer">
                     <img src="assets/logo.png" alt="">
-                    <p class="text-xl pl-2">Dev<span class="font-bold">Board</span></p>
+                    <p class="text-xl pl-2 hidden md:block">Dev<span class="font-bold">Board</span></p>
                 </div>
                 <div class="flex-none gap-5">
                   <div class="flex gap-2 justify-between items-center bg-[#F4F7FF] rounded-full px-5 py-3">
@@ -57,13 +57,13 @@
 
         <div class="flex lg:flex-row flex-col gap-5 w-[100%]">
             <!-- left-side with 3/4 width -->
-             <div class="w-3/4 bg-white px-4 py-4">
+             <div class="lg:w-3/4 bg-white px-4 py-4">
 
                 <!-- take 3 little div -->
-                <div class="flex justify-between items-center gap-5 w-[100%]">
+                <div class="flex lg:flex-row flex-col justify-between items-center gap-5 w-[100%]">
 
                     <!-- left div -->
-                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 w-[28%]">
+                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 lg:w-[28%]">
                         <div class="bg-[#ffff] rounded-full p-2 cursor-pointer">
                             <img src="assets/checkbox.png" alt="">
                         </div>
@@ -78,7 +78,7 @@
                     </div>
 
                     <!-- mid div -->
-                    <div class="w-[40%] flex justify-start items-center gap-2 py-5 px-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-lg">
+                    <div class="lg:w-[40%] cursor-pointer flex justify-start items-center gap-2 py-5 px-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-lg">
                         <div>
                             <img class="h-12" src="assets/board.png" alt="">
                         </div>
@@ -90,7 +90,7 @@
                     </div>
                     
                     <!-- right div -->
-                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 w-[28%]">
+                    <div class="bg-[#F4F7FF] rounded-lg flex justify-center items-center gap-5 py-5 px-3 lg:w-[28%]">
                         <div class="bg-[#ffff] rounded-full p-2 cursor-pointer">
                             <img src="assets/calender.png" alt="">
                         </div>
@@ -311,7 +311,7 @@
              </div>
 
             <!-- right-side with 1/4 width -->
-             <div class="w-1/4 bg-white">
+             <div class="lg:w-1/4 bg-white pb-4">
                 <div class="flex gap-2 items-center justify-center p-3">
                     <img src="assets/activity.png" alt="">
                     <p class="text-lg font-semibold">Activity Log</p>
