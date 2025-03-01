@@ -31,3 +31,13 @@ let timeNow = new Intl.DateTimeFormat("en-bd", {
     timeStyle: "medium"
     
 }).format(new Date());
+
+// function for activity section
+
+
+// function for clear history
+
+document.getElementById("clearHistory").addEventListener("click", function () {
+    document.getElementById("updated-task").innerHTML = "";
+}
+)
