@@ -19,3 +19,15 @@ let changeColor = () => {
 changeThemeColorBtn.addEventListener("click", changeColor);
     
 
+// function for update date and time
+
+let today = new Intl.DateTimeFormat("en-bd", {
+    dateStyle: "full"
+}).format(new Date());
+ 
+document.getElementById("date").innerText = today;
+
+let timeNow = new Intl.DateTimeFormat("en-bd", {
+    timeStyle: "medium"
+    
+}).format(new Date());
