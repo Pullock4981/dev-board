@@ -20,7 +20,7 @@ function activity (indexOfCard) {
                 <p>
                     You have complited the task <span class="font-bold">${
                         taskTitle[indexOfCard].innerText}
-                    </span> at <span class="font-bold">${timeNow}</span> 
+                    </span> at <span class="font-bold">${new Date()}}</span> 
                 </p>
             </div>
         `
