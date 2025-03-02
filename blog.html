@@ -66,10 +66,11 @@
                     </h1>
                     <hr class="border-dashed border-1 border-gray-300 my-3">
                     <p class="text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iste inventore magnam quae molestiae voluptatem delectus 
-                         placeat accusantium quia culpa repudiandae rem,
-                         nisi quibusdam iusto officia numquam tempora veritatis asperiores nihil.
+                        1. By id. Like: document.getElementById("Id name") <br>
+                        2. By class. Like: document.getElementsByClassName("class name") <br>
+                        3. By tag name. Like: document.getElementsByTagName("Tag name") <br>
+                        4. By querySelector. Like: document.document.querySelector(".myClass") <br>
+                        5. By querySelectorAll. Like: document.document.querySelectorAll(".myClass") <br>
                     </p>
                  </div>
 
@@ -80,52 +81,50 @@
                     </h1>
                     <hr class="border-dashed border-1 border-gray-300 my-3">
                     <p class="text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iste inventore magnam quae molestiae voluptatem delectus 
-                         placeat accusantium quia culpa repudiandae rem,
-                         nisi quibusdam iusto officia numquam tempora veritatis asperiores nihil.
+                        innerHTML: It returns the HTML content of an element. <br>
+                        innerText: It returns the text content of an element. <br>
+                        textContent: It returns the text content of an element. <br>
                     </p>
                  </div>
 
                  <!-- q card -3 -->
                  <div class="bg-white rounded-lg p-5 mt-5">
                     <h1 class="font-bold text-xl">
-                        Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                        Question-3: What is event delegation in the DOM?
                     </h1>
                     <hr class="border-dashed border-1 border-gray-300 my-3">
                     <p class="text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iste inventore magnam quae molestiae voluptatem delectus 
-                         placeat accusantium quia culpa repudiandae rem,
-                         nisi quibusdam iusto officia numquam tempora veritatis asperiores nihil.
+                        Event delegation is a technique involving adding event listeners to a parent element instead of adding them to the descendant elements. The listener will fire whenever the event is triggered on the descendant elements due to event bubbling up the DOM. <br>
+                        This is useful when you have a parent element with multiple children that you want to have the same event. <br>
+                        It is more efficient than adding an event listener to each child element.
                     </p>
                  </div>
 
                  <!-- q card -4 -->
                  <div class="bg-white rounded-lg p-5 mt-5">
                     <h1 class="font-bold text-xl">
-                        Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                        Question-4: What is event bubbling in the DOM?
                     </h1>
                     <hr class="border-dashed border-1 border-gray-300 my-3">
                     <p class="text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iste inventore magnam quae molestiae voluptatem delectus 
-                         placeat accusantium quia culpa repudiandae rem,
-                         nisi quibusdam iusto officia numquam tempora veritatis asperiores nihil.
+                        Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost (top-level) element. <br>
+                        This is the default behavior of events in the DOM, but it can be stopped or prevented using event.stopPropagation() or event.preventDefault() methods.
                     </p>
                  </div>
 
                  <!-- q card -5 -->
                  <div class="bg-white rounded-lg p-5 mt-5">
                     <h1 class="font-bold text-xl">
-                        Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                        Question-5: How do you create, add, and remove elements using JavaScript?
                     </h1>
                     <hr class="border-dashed border-1 border-gray-300 my-3">
                     <p class="text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iste inventore magnam quae molestiae voluptatem delectus 
-                         placeat accusantium quia culpa repudiandae rem,
-                         nisi quibusdam iusto officia numquam tempora veritatis asperiores nihil.
+                        To create an element: <br>
+                        var element = document.createElement("div"); <br>
+                        To add an element: <br>
+                        parentElement.appendChild(element); <br>
+                        To remove an element: <br>
+                        parentElement.removeChild(element); <br>
                     </p>
                  </div>
 
